@@ -222,11 +222,11 @@ document.querySelectorAll('.product-card[data-product-name]').forEach((card) => 
   const options = [...card.querySelectorAll('[data-product-size]')];
   const enquiry = card.querySelector('[data-product-enquiry]');
 
-  const updateEnquiry = (size) => {
-    const subject = `Enquiry: ${name} (${size})`;
-    const body = `Hello Kokanee Hooman,\n\nI would like to enquire about ${name} in ${size}.\n\nThank you.`;
-    enquiry.href = `mailto:hello@kokaneehooman.com?${new URLSearchParams({ subject, body }).toString()}`;
-  };
+const updateEnquiry = () => {
+    enquiry.href = "https://www.instagram.com/kokaneehooman/";
+    enquiry.target = "_blank";
+    enquiry.rel = "noopener noreferrer";
+};
 
   options.forEach((option) => {
     option.addEventListener('click', () => {
