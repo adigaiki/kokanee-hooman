@@ -84,7 +84,17 @@
     outline-offset: 5px;
     animation: jackfruit-float 5s ease-in-out infinite
 }
-
+.hero-marathi {
+    margin: 0;
+    font-size: clamp(1rem, 1.5vw, 2rem);
+    font-weight: 800;
+    line-height: 1;
+    color: #1F3A33;   /* Matches the hero's dark green */
+    letter-spacing: 0.02em;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    text-shadow: none;
+}
 .hero-badge:after {
     content: '';
     position: absolute;
