@@ -61,8 +61,8 @@ a {
 }
 
 .brand-logo {
-    width: 72px;
-    height: 72px;
+    width: 56px;
+    height: 56px;
     object-fit: contain;   /* not cover */
 }
 
@@ -74,7 +74,7 @@ a {
 
 .brand-name {
     font-family: var(--serif);
-    font-size: 1.2rem;
+    font-size: 1.35rem;
     font-weight: 700;
     color: var(--ink);
 }
