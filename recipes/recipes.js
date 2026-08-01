@@ -1,6 +1,6 @@
 const recipeHeroImages = {
-  'Chakli Recipe | Kokanee Hooman': '../images/chakli.jpg',
-  'Patoli Recipe | Kokanee Hooman': '../images/pataleo-gen.png',
+  'Chakli Recipe | Kokanee Hooman': '../images/chakli.webp',
+  'Patoli Recipe | Kokanee Hooman': '../images/pataleo-gen.webp',
 };
 
 const heroPlaceholder = document.querySelector('.recipe-hero-placeholder');
